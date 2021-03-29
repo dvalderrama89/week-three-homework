@@ -23,7 +23,7 @@ function generatePassword() {
   const numericChars = "0123456789";
   const specialChars = " !\"#$%&'()*+,-./:;<=>?@[]^_`{|}~";
 
-  // Turns the prompt string into an number
+  // Turns the prompt string into a number
   numCharacters = parseInt(numCharacters);
 
   // Handling for bad inputs
@@ -60,16 +60,16 @@ function generatePassword() {
   // Selects characters to add to password string
   for (let i = 0; i < numCharacters; i = i + numCriteria) {
     if (hasSpecialCharacters) {
-      password += specialChars[getRandomInt(specialChars.length-1)];
+      password += specialChars[getRandomInt(specialChars.length)];
     }
     if (hasNumericCharacters) {
-      password += numericChars[getRandomInt(numericChars.length-1)];
+      password += numericChars[getRandomInt(numericChars.length)];
     }
     if (hasLowerCaseCharacters) {
-      password += alphaChars[getRandomInt(alphaChars.length-1)];
+      password += alphaChars[getRandomInt(alphaChars.length)];
     }
     if (hasUpperCaseCharacters) {
-      password += alphaChars[getRandomInt(alphaChars.length-1)].toUpperCase();
+      password += alphaChars[getRandomInt(alphaChars.length)].toUpperCase();
     }
   }
   return password;
