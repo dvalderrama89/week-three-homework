@@ -3,3 +3,6 @@ The goal of the project was to use javascript to prompt the user to enter inputs
 
 # Screenshots
 ![week3_homeworkScreenshot](https://user-images.githubusercontent.com/1855513/112788951-d9a0c280-9010-11eb-99e9-44a16fff63e6.png)
+
+# Link to deployed App
+https://reddituser7777.github.io/week-three-homework/
